@@ -4,6 +4,7 @@ import {AiOutlinePlus} from 'react-icons/ai'
 import Todo from "./Todo";
 
 import { db } from "./firebase";
+import Footer from "./footer";
 
   
 const style = {
@@ -90,6 +91,7 @@ const deleteTodo = async (id) => {
       }
      
       </div>
+      <Footer />
 
 
      
